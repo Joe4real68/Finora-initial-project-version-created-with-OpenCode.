@@ -123,11 +123,20 @@ Recording a transaction should take only seconds.
 ```
 Finora/
   Docs/
-    Finora.md   # Product Requirements Document (source of truth)
-  README.md     # This file
+    Finora.md        # PRD (source of truth)
+    ARCHITECTURE.md  # phased implementation folders
+  README.md
+  .github/workflows/ci.yml
+  src/
+    auth users settings categories transactions summaries
+    dashboard insights alerts reports tithe db
+    ai-assistant affordability savings-goals recurring notifications/  # Phase 5 placeholders
+    ui/auth settings transactions categories dashboard insights tithe/
+  tests/
+    auth users settings categories transactions summaries dashboard insights tithe/
 ```
 
-No application code yet — v0.0.1 is docs + README baseline.
+No application code yet — v0.0.2 is docs + phased folder scaffold. See `Docs/ARCHITECTURE.md`.
 
 ## 9. How to Run
 
